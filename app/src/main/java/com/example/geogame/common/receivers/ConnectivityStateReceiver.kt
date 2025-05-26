@@ -1,4 +1,4 @@
-package com.example.geogame.receivers
+package com.example.geogame.common.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context

@@ -9,12 +9,18 @@ android {
 
     defaultConfig {
         applicationId = "com.example.geogame"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    packaging {
+        resources {
+            excludes += "META-INF/DEPENDENCIES"
+        }
     }
 
     buildTypes {
@@ -48,5 +54,5 @@ dependencies {
     implementation(libs.android.beacon.library)
     implementation(libs.gson)
     implementation(libs.osmdroid)
-    implementation(libs.arcgis.android)
+    implementation("com.esri.arcgisruntime:arcgis-android:100.15.2")
 }
