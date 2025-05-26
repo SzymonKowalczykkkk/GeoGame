@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        com.esri.arcgisruntime.ArcGISRuntimeEnvironment.setApiKey("AAPTxy8BH1VEsoebNVZXo8HurMQq2nDR_hFWoHM5ozAfTVbZxO1SwDCTZZ3HvAeyupERJNANgSR_GTjR9f-3_yiqiA0NCmdDBOawYF8YCMajaD1xtxwfHW7VQTnf2i52Ow3btgZewsyrqgfqnGoenBKflb6pbt20Ed2rcRP_8wlXy1Q_zfza-unXcjtPdg7ujxfW9LjT1VxcfpZC49XjOicwXjE539tg5FyvWJN_gXdBXEM.AT1_kZxSmO6z")
+        com.esri.arcgisruntime.ArcGISRuntimeEnvironment.setApiKey("AAPTxy8BH1VEsoebNVZXo8HurMNANgSR_GTjR9f-3_yiqiA0NCmdDBOawYF8YCMajaD1xtxwfHW7VQTnf2i52Ow3btgZewsyrqgfqnGoenBKflb6pbt20Ed2rcRP_8wlXy1Q_zfza-unXcjtPdg7ujxfW9LjT1VxcfpZC49XjOicwXjE539tg5FyvWJN_gXdBXEM.AT1_kZxSmO6z")
         mapView = findViewById(R.id.mapView)
         val map = ArcGISMap(BasemapStyle.ARCGIS_NAVIGATION)
         mapView.map = map
