@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GeoGame</string>
+    <string name="main_button">Start</string>
+    <string name="button2">Stop</string>
+</resources>
